@@ -7,3 +7,7 @@ export interface ButtonProps {
   buttonLabel: string;
   buttonBackgroundColor?: string;
 }
+
+export interface LayoutProps {
+  children: React.ReactNode;
+}
